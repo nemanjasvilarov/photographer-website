@@ -1,0 +1,400 @@
+body {
+  padding: 0;
+  background-color: #f4eeff;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: #dcd6f7;
+  color: #424874;
+  padding-top: 20px;
+}
+
+.menu h1 {
+  margin-top: 1rem;
+  font-family: "Oswold", sans-serif;
+  font-weight: 700;
+  padding-right: 300px;
+}
+
+.menu h1:hover {
+  color: #f4eeff;
+}
+
+.menu ul {
+  display: flex;
+  list-style-type: none;
+  margin-top: 1.25rem;
+}
+
+.menu ul li {
+  margin-left: 3rem;
+  font-family: "Oswold", sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+}
+
+.menu ul li a {
+  color: #424874;
+  text-decoration: none;
+}
+
+.menu ul li a:hover {
+  color: #f4eeff;
+}
+
+.hamburger {
+  margin-top: 1.25rem;
+  display: none;
+  cursor: pointer;
+}
+
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  transition: all 0.3s ease-in-out;
+  background-color: #424874;
+}
+
+.author {
+  text-align: center;
+  display: block;
+  background-color: #dcd6f7;
+  height: 400px;
+  padding: 50px;
+  color: #424874;
+}
+
+.author div {
+  float: left;
+  padding-left: 150px;
+  padding-top: 60px;
+  margin: auto;
+}
+
+.author div h1 {
+  font-size: 3.75rem;
+  margin-bottom: 5px;
+  font-family: "Oswold", sans-serif;
+  font-weight: 800;
+}
+
+.author div p {
+  margin-top: 0;
+  font-size: 30px;
+  font-family: "Oswold", sans-serif;
+}
+
+img {
+  float: right;
+  margin-right: 8rem;
+  width: 400px;
+  padding-top: 60px;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-evenly;
+  justify-items: center;
+  align-content: space-evenly;
+  align-items: center;
+}
+
+.wrapper div {
+  width: 400px;
+  height: 500px;
+  opacity: 50%;
+}
+
+.wrapper div:hover {
+  opacity: 100%;
+}
+
+.wrapper {
+  padding-top: 40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 30px;
+}
+
+.studio-video {
+  text-align: center;
+  background-color: #a8a4ce;
+  margin-top: 50px;
+}
+
+.video {
+  width: 100%;
+  padding: 30px;
+  margin: 0;
+  padding: 0;
+  opacity: 70%;
+}
+
+.price {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 60px;
+  background-color: #a8a4ce;
+  margin-top: 60px;
+}
+
+.price div {
+  background-color: #424874;
+  width: 340px;
+  height: 380px;
+  text-align: center;
+  color: #dcd6f7;
+  border: 6px;
+  border-style: solid;
+  font-family: "Oswold", sans-serif;
+}
+
+.price div p {
+  font-size: 50px;
+}
+
+.price div i {
+  font-size: 35px;
+}
+
+.price div i:hover {
+  color: #a8a4ce;
+}
+
+footer {
+  text-align: center;
+  padding: 100px;
+  color: #424874;
+}
+footer i {
+  margin: 10px;
+  font-size: 20px;
+}
+
+footer i:hover {
+  color: #dcd6f7;
+}
+
+@media (max-width: 1800px) {
+  .author div h1 {
+    font-size: 3.4rem;
+  }
+  .wrapper div {
+    width: 300px;
+    height: 400px;
+  }
+}
+
+@media (max-width: 1700px) {
+  .author div h1 {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 1600px) {
+  .author div h1 {
+    font-size: 2.8rem;
+  }
+}
+
+@media (max-width: 1550px) {
+  .author div h1 {
+    font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 1450px) {
+  .author div h1 {
+    font-size: 2rem;
+  }
+  .wrapper {
+    grid-template-columns: 1fr 1fr;
+  }
+  .wrapper div {
+    width: 400px;
+    height: 500px;
+  }
+}
+
+@media (max-width: 1300px) {
+  .author div h1 {
+    font-size: 1.5rem;
+  }
+  img {
+    width: 350px;
+  }
+  .price div {
+    width: 280px;
+    height: 300px;
+  }
+  .price div h3 {
+    font-size: 20px;
+    margin: auto;
+  }
+  .price div p {
+    font-size: 30px;
+  }
+  .price div i {
+    font-size: 20px;
+  }
+  .menu h1 {
+    font-size: 22px;
+  }
+  .menu ul li {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 1270px) {
+  .wrapper div {
+    width: 320px;
+    height: 420px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .author div {
+    padding-left: 0;
+  }
+  .wrapper div {
+    width: 320px;
+    height: 420px;
+  }
+  img {
+    float: none;
+    margin: 0;
+  }
+}
+
+@media (max-width: 1130px) {
+  .wrapper {
+    grid-template-columns: 1fr;
+  }
+  .wrapper div {
+    width: 400px;
+    height: 500px;
+  }
+  .price div {
+    width: 240px;
+    height: 260px;
+    margin-bottom: 20px;
+  }
+  .price div h3 {
+    font-size: 16px;
+    margin: auto;
+  }
+  .price div p {
+    font-size: 26px;
+  }
+  .price div i {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 990px) {
+  .author div {
+    margin-top: 200px;
+  }
+  img {
+    margin-top: 150px;
+  }
+  .hamburger {
+    display: block;
+  }
+  .hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+  .hamburger.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+  .hamburger.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+  }
+  .menu ul {
+    margin-top: 0;
+    position: fixed;
+    right: -100%;
+    top: 80px;
+    gap: 0;
+    flex-direction: column;
+    background-color: #c7c2e6;
+    width: 100%;
+    text-align: center;
+    transition: 0.3s ease;
+    padding-left: 0;
+  }
+  .menu ul li {
+    margin: 16px 0;
+  }
+  .menu > ul.active {
+    right: 0%;
+  }
+}
+
+@media (max-width: 886px) {
+  .author {
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 200px;
+    flex-wrap: nowrap;
+  }
+  .author div {
+    margin-top: 100px;
+    margin-left: 240px;
+    margin-right: 240px;
+  }
+  .author div p {
+    font-size: 20px;
+  }
+  img {
+    padding: 0;
+    margin-top: 0;
+    top: 0px;
+    left: -0.5%;
+    float: none;
+  }
+}
+
+@media (max-width: 780px) {
+  .author div {
+    margin-left: 180px;
+    margin-right: 180px;
+  }
+}
+
+@media (max-width: 538px) {
+  .author div {
+    margin-left: 120px;
+    margin-right: 120px;
+  }
+}
+
+@media (max-width: 497px) {
+  .menu h1 {
+    position: relative;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 436px) {
+  .menu ul {
+    margin-top: 50px;
+  }
+}
+
+@media (max-width: 400px) {
+  .author div {
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+}
