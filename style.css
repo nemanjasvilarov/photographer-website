@@ -189,6 +189,9 @@ footer i:hover {
   .author div h1 {
     font-size: 3.4rem;
   }
+  .author div p {
+    font-size: 29px;
+  }
   .wrapper div {
     width: 300px;
     height: 400px;
@@ -199,11 +202,17 @@ footer i:hover {
   .author div h1 {
     font-size: 3rem;
   }
+  .author div p {
+    font-size: 28px;
+  }
 }
 
 @media (max-width: 1600px) {
   .author div h1 {
     font-size: 2.8rem;
+  }
+  .author div p {
+    font-size: 27px;
   }
 }
 
@@ -211,11 +220,17 @@ footer i:hover {
   .author div h1 {
     font-size: 2.5rem;
   }
+  .author div p {
+    font-size: 26px;
+  }
 }
 
 @media (max-width: 1450px) {
   .author div h1 {
     font-size: 2rem;
+  }
+  .author div p {
+    font-size: 24px;
   }
   .wrapper {
     grid-template-columns: 1fr 1fr;
@@ -229,6 +244,9 @@ footer i:hover {
 @media (max-width: 1300px) {
   .author div h1 {
     font-size: 1.5rem;
+  }
+  .author div p {
+    font-size: 20px;
   }
   img {
     width: 350px;
