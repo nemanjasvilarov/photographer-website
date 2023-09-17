@@ -14,6 +14,10 @@ body {
   background-color: #dcd6f7;
   color: #424874;
   padding-top: 20px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 1;
 }
 
 .menu h1 {
@@ -109,7 +113,6 @@ img {
 }
 
 .wrapper div {
-  width: 400px;
   height: 500px;
   opacity: 50%;
 }
@@ -338,6 +341,7 @@ footer i:hover {
   .hamburger.active .bar:nth-child(3) {
     transform: translateY(-8px) rotate(-45deg);
   }
+
   .menu ul {
     margin-top: 0;
     position: fixed;
