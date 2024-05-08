@@ -2,7 +2,7 @@
 
 This is a portfolio website of a photographer.
 
-Technologies used to make this API:
+Technologies used to make this website:
 - JavaScript
 - HTML
 - CSS
