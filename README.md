@@ -1,4 +1,10 @@
-# photographer-website
+# Photographer website
+
 This is a portfolio website of a photographer.
-# Link to a website :
-https://nemanjasvilarov.github.io/photographer-website/
+
+Technologies used to make this API:
+- JavaScript
+- HTML
+- CSS
+
+URL: https://nemanjasvilarov.github.io/photographer-website/
