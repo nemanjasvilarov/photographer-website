@@ -1,4 +1,10 @@
-# photographer-website
-This is a static website that represents the portfolio of a photographer.
-# Link to a website :
-https://nemanjasvilarov.github.io/photographer-website/
+# Photographer website
+
+This is a portfolio website of a photographer.
+
+Technologies used to make this website:
+- JavaScript
+- HTML
+- CSS
+
+URL: https://nemanjasvilarov.github.io/photographer-website/
